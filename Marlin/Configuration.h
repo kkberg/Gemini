@@ -1188,14 +1188,14 @@
  * following movement settings. If fewer factors are given than the
  * total number of extruders, the last value applies to the rest.
  */
-#define DISTINCT_E_FACTORS  // für Emrah
+#define DISTINCT_E_FACTORS    // für Emrah abgeändert
 
 /**
  * Default Axis Steps Per Unit (linear=steps/mm, rotational=steps/°)
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160.0, 160.0, 800.0, 810.55, 818.74}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160.0, 160.0, 800.0, 810.55, 818.74 } // Esteps für beide Extruder
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
